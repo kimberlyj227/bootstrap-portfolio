@@ -2,17 +2,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    /* background-color: rgb(255, 255, 240); */
-    background-image: url(/Assets/Images/metalcubes.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 1000px;
 
-
+.container p, .form-group, legend {
+    color: #333;
 }
 
-p, .form-group, legend {
-    color: #333;
+footer {
+    font-size: 14px;
+    text-align: center;
 }
 
