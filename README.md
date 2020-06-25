@@ -1,4 +1,4 @@
-# bootstrap-portfolio
+# portfolio
 
 ### About
 
@@ -15,9 +15,14 @@ https://github.com/kimberlyj227/portfolio
 
 ### Screenshots/images
 
-Mobile:
-
-![](Assets/Images/portfolio-desktop.jpg)
-
 Desktop:
 
+![Desktop About Me](Assets/Images/desktop-aboutme.png)
+![Desktop Portfolio](Assets/Images/desktop-portfolio.png)
+![Desktop Contact](Assets/Images/desktop-contact.png)
+
+Mobile:
+
+![Mobile About Me](Assets/Images/mobile-aboutme.png)
+![Mobile Portfolio](Assets/Images/mobile-portfolio.png)
+![Desktop Contact](Assets/Images/mobile-contact.png)
