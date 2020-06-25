@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors Part 2</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      // Creates an array that lists out all of the options (Rock, Paper, or Scissors).
+      var computerChoices = ["r", "p", "s"];
+
+      // Creating variables to hold the number of wins, losses, and ties. They start at 0.
+      var wins = 0;
+      var losses = 0;
+      var ties = 0;
+
+      for (var i = 0; i < 10; i++) {
+        // Collect the user's response and convert to lower case.
+        var userGuess = prompt("Enter r, p, or s to play!");
+        userGuess = userGuess.toLowerCase();
+
+        var compChoice = computerChoices[Math.floor(Math.random() * computerChoices.length)]; //in for loop so comp makes a new guess every time
+
+        if (compChoice.includes(userGuess)) {
+
+            alert("The computer chose " + compChoice);
+
+        // evaluate choices 
+        if ((userGuess === "r" && compChoice === "s") ||
+            (userGuess === "s" && compChoice === "p") ||
+            (userGuess === "p" && compChoice === "r")) {
+                wins++
+                alert("You've won " + wins + " time(s)!");
+            } else if (userGuess === compChoice) {
+                ties++;
+                alert("You've tied " + ties + " time(s)!");
+            } else {
+                losses++;
+                alert("You've lost " + losses + " time(s)!");
+            }
+        
+
+        // Test if it's working correctly
+        console.log(userGuess);
+        console.log(compChoice);
+        console.log(ties);
+        console.log(wins);
+        console.log(losses);
+      }
+    }
+
+      alert(
+            "Wins: " + wins + "\r\n" +
+            "Losses: " + losses + "\r\n" +
+            "Ties: " + ties
+            )
+    </script>
+  </body>
+</html>
+
+
+
