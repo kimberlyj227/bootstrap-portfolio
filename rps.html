@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Rock Paper Scissors Part 2</title>
+    <title>Rock Paper Scissors</title>
   </head>
   <body>
     <script type="text/javascript">
@@ -21,7 +21,7 @@
 
         var compChoice = computerChoices[Math.floor(Math.random() * computerChoices.length)]; //in for loop so comp makes a new guess every time
 
-        if (compChoice.includes(userGuess)) {
+        if (userGuess === "r" || userGuess === "s" || userGuess === "p") {
 
             alert("The computer chose " + compChoice);
 
