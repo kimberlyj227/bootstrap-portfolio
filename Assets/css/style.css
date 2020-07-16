@@ -8,6 +8,10 @@
     color: #333;
 }
 
+#socialLinks {
+    list-style-type: none;
+}
+
 
 
 footer {
@@ -23,9 +27,6 @@ footer {
  }
 
 /* /* /* Color Theme Swatches in Hex */
-
-
-
 
 .bg-navy { background-color: #192A42; }
 .bg-blue-grey { background-color: #2F4459; }
