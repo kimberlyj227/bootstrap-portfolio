@@ -1,0 +1,40 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.container p, .form-group, legend {
+    color: #333;
+}
+
+
+
+footer {
+    font-size: 14px;
+    text-align: center;
+}
+
+@media (min-width: 576px) { 
+    #profilePicture {
+        height: 200px;
+    }
+
+ }
+
+/* /* /* Color Theme Swatches in Hex */
+
+
+
+
+.bg-navy { background-color: #192A42; }
+.bg-blue-grey { background-color: #2F4459; }
+.bg-yellow{ background-color: #E6B515; }
+
+
+.yellow{ color:  #E6B515; }
+.navy { color: #192A42; }
+.blue-grey { color: #2F4459; }
+.grey { color: #737E8C; }
+.light-grey { color: #B8B4BF; }
+
