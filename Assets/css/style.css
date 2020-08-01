@@ -2,16 +2,19 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
-
 .container p, .form-group, legend {
     color: #333;
 }
+.project {
+    min-height: 300px;
+}
 
+.wepark {
+    min-height: 400px;
+}
 #socialLinks {
     list-style-type: none;
 }
-
 
 
 footer {
