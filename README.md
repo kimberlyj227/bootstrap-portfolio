@@ -2,17 +2,20 @@
 
 ### About
 
-I created a responsive portfolio site using bootstrap elements and styling. The website consists of three pages: About me, Portfolio, and Contact. The portfolio page consists of one link to a rock, paper, scissors game and two placeholders for future projects. 
+I created a responsive portfolio site using bootstrap elements and styling. The website consists of two pages: About me and Portfolio and a contact modal. 
 
 ### Links
 
-[Live site](https://kimberlyj227.github.io/portfolio/)
+[Link to Site](https://kimberlyj227.github.io/portfolio/)
 
 [Github profile](https://github.com/kimberlyj227/portfolio)
 
 
 ### Screenshots/images
 
-Desktop:
+About me:
+![about me](/Assets/Images/aboutme.png)
+Portfolio:
+![about me](/Assets/Images/portfolio.png)
 
-![Desktop About Me](Assets/Images/aboutme.png)
+
