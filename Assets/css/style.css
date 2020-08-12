@@ -7,20 +7,21 @@
 
 /* ------ HEADER ------ */
 h1 {
-    font-family: 'Danicing Script', cursive;
+    font-family: 'Anton', sans-serif;
 }
 
 .jumbotron {
     background-image: url(../Images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom center;
-    height: 200px;
+    background-position:  50% 80%;
+    height: 250px;
     padding: 20px;
 }
 
 .head-content {
     background-color:rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
     padding: 20px;
     color: #2F4459;
     width: 100%;
@@ -72,6 +73,8 @@ a:hover {
     list-style-type: none;
 }
 
+
+
 /* ------ FOOTER ------ */
 footer {
     font-size: 14px;
@@ -97,8 +100,12 @@ footer {
     background-color: #D9A441;
 }
 
-.bg-gold {
-    background-color: #D9A441;
+.bg-navy {
+    background-color: #192A42;
+}
+
+.bg-dk-grey {
+  background-color: #737E8C;  
 }
 
 .bg-grey {
