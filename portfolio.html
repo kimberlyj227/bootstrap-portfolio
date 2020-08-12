@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/superhero/bootstrap.min.css" rel="stylesheet" integrity="sha384-rvwYMW9Z/bbxZfgxHQEKx6D91KwffWAG+XnsoYNCGWi/qL1P9dIVYm1HBiHFqQEt" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -20,97 +21,203 @@
 
   <!-- header/navbar -->
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-    <h1>Kimberly Owens</h1>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse " id="navbarText">
-      <ul class="navbar-nav ml-md-auto ">
-        <li class="nav-item active">
-          <a class="nav-link " href="index.html">About Me <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active text-warning" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="contact.html">Contact</a>
-        </li>
-      </ul>
-      
+  <header>
+    <div class="jumbotron jumbotron-fluid m-0">
+      <div class="container head-content col-md-12">
+        <h1 class="display-4 mt- 2 text-center ">Kimberly Owens</h1>
+        <p class="text-center ">Full-Stack Developer</p>
+      </div>
     </div>
-  </nav>
+
+
+    <nav class="navbar navbar-expand-lg bg-yellow">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-white" id="navbarText">
+        <ul class="navbar-nav mx-auto ">
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="index.html">About Me </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link  navy" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a data-toggle="modal" data-target="#contact" class="nav-link text-white">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </header>
 
 
   <!-- Content -->
 
-  <div class="container border mt-5 shadow-sm p-3 mb-5 bg-white rounded">
+  <div class="container content border p-3 shadow-sm rounded">
     <div class="row">
-      <div class="col-md text-white bg-info ">
+      <div class="col-md text-white bg-purple ">
         <h2>Portfolio</h2>
       </div>
     </div>
-    <div class="row mt-3">
-        <div class="col-md-6 col-sm-12 project">
-          <a href="https://nikcastle.github.io/urban-octo-guacamole/index.html" target="_blank">
-          <figure class="figure">
-            <img src="Assets/Images/wepark.png" class="figure-img img-fluid rounded wepark img" alt="we park adventure app thumbnail" >
-            <figcaption class="figure-caption badge-info py-2 mx-auto text-center">We Park</figcaption>
-          </figure>
-        </a>
-        </div>
-        
-        <div class="col-md-6 col-sm-12 project">
-          <a href="https://polar-lake-78345.herokuapp.com/" target="_blank">
-          <figure class="figure">
-            <img src="Assets/Images/burger.png" class="figure-img img-fluid rounded burger img" alt="screenshot of burger app" >
-            <figcaption class="figure-caption badge-info py-2 mx-auto text-center">Eat the Burger!</figcaption>
-          </figure>
-          </a>
-        </div>
-        <!-- for future projects -->
-        <!-- <div class="col-md-4 col-sm-12">
-          <a href="#">
-            <figure class="figure">
-              <img src="Assets/Images/comingsoon.jpg" class="figure-img img-fluid rounded comingsoon" alt="abstract image for placeholder" >
-              <figcaption class="figure-caption badge-info py-2 mx-auto text-center">Next Project Coming Soon!</figcaption>
-            </figure>
-            </a>
-        </div> -->
-       
-    </div>
-    
-       
-      
-        
-      
-    
-  
+    <div class="row mt-3"></div>
 
-  <!-- Footer -->
-  <footer class="fixed-bottom r">
-    <div class="container-fluid bg-secondary mt-2 ">
-      <div>
-        <div class="row">
-          <div class="col-md-5 col-sm-3">
-            <p class="text-md-right text-sm-left text-white "> Kimberly Owens  | </p>
-          </div>
-          <div class="col-md-1 col-sm-1">
-            <a class="fab fa-github text-white " href="https://github.com/kimberlyj227" target="_blank"></a>
-          </div>
-          <div class="col-md-1 col-sm-1">
-            <a class="fab fa-linkedin-in text-white " href="https://www.linkedin.com/in/kimberly-owens-8ba016156/"
-              target="_blank">
-            </a>
-          </div>
-          <div class="col-md-1 col-sm-1">
-            <a class="far fa-file-pdf  text-white " href="Assets/docs/resumeforbootcamp.pdf" target="_blank">
-            </a>
+      <div class="col-md-8 mx-auto my-3 bg-white box-search">
+        <div class="thumbnail text-center">
+          <img src="Assets/Images/wepark.png" alt="we park" class="img-fluid"/>
+          <div class="caption">
+            <p>We Park is an app that allows users to search for national parks and view important information about those parks.
+            </p>
+            <a class="purple link" href="https://nikcastle.github.io/urban-octo-guacamole/index.html" target="_blank">We Park Adventure App</a>
           </div>
         </div>
       </div>
+
+      <div class="col-md-8 mx-auto my-3 bg-white box-search">
+        <div class="thumbnail text-center">
+          <img src="Assets/Images/pantheos2.png" alt="pantheos" class="img-fluid"/>
+          <div class="caption">
+            <p>Pantheos is an app that allows teachers to maintain full control over their classrooms. Teachers can view, add, update, and delete students in their class at the touch of a button.
+            </p>
+            <a class="purple link" href="https://murmuring-headland-14646.herokuapp.com/" target="_blank">Pantheos Classroom Manager</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8 mx-auto my-3 bg-white box-search">
+        <div class="thumbnail text-center">
+          <img src="Assets/Images/burger2.png" alt="eat the burger" class="img-fluid"/>
+          <div class="caption">
+            <p>Eat the burger is a fun app that allows the user to create a list of burgers they would like to eat and mark when they've devoured them.
+            </p>
+            <a class="purple link" href="https://polar-lake-78345.herokuapp.com/" target="_blank">Eat the Burger!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8 mx-auto my-3 bg-white box-search">
+        <div class="thumbnail text-center">
+          <img src="Assets/Images/employee.png" alt="eat the burger" class="img-fluid"/>
+          <div class="caption">
+            <p>The employee management system is a node.js app that allows a user to keep track of all of employees and their roles and departments.
+            </p>
+            <a class="purple link" href="https://kimberlyj227.github.io/employee-tracker/index.html" target="_blank">Employee Management System Demo Video</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8 mx-auto my-3 bg-white box-search">
+        <div class="thumbnail text-center">
+          <img src="Assets/Images/noteTaker.png" alt="note taker" class="img-fluid"/>
+          <div class="caption">
+            <p>
+              This app is made for busy users who need to be able to write, save, and delete notes. The note dashboard allows users to view notes they have previously written, write new notes, and delete notes they no longer need. The application saves the notes to a server database so when the page is refreshed, their information is not lost.
+            </p>
+            <a class="purple link" href="https://mighty-ravine-59073.herokuapp.com/" target="_blank">Note Taker</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8 mx-auto my-3 bg-white box-search">
+        <div class="thumbnail text-center">
+          <img src="Assets/Images/team.png" alt="eat the burger" class="img-fluid"/>
+          <div class="caption">
+            <p>
+              This application runs as a Node CLI to gather information about each employee on the team. The user is able to add managers, engineers, and interns to their team page. After all of the employees are entered into the command line, a team.html file will be written in the outputs folder. The user will be able to open that page in the browser to view their team!
+            </p>
+            <a class="purple link" href="https://kimberlyj227.github.io/team-generator/index.html" target="_blank">Team Generator Demo Video</a>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <!-- for future projects -->
+
+      <!-- <div class="col-md-8 mx-auto my-3 bg-white box-search">
+        <div class="thumbnail text-center">
+          <img src="Assets/Images/burger2.png" alt="eat the burger" class="img-fluid"/>
+          <div class="caption">
+            <p>
+
+            </p>
+            <a class="purple link" href="" target="_blank">Eat the Burger!</a>
+          </div>
+        </div>
+      </div> -->
+
     </div>
-  </footer>
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="fixed-bottom">
+      <div class="container-fluid mt-2 ">
+        <div>
+          <div class="row">
+            <div class="col-md-5 col-sm-3">
+              <p class="text-md-right text-sm-left text-white "> Kimberly Owens | </p>
+            </div>
+            <div class="col-md-1 col-sm-1">
+              <a class="fab fa-github text-white " href="https://github.com/kimberlyj227" target="_blank"></a>
+            </div>
+            <div class="col-md-1 col-sm-1">
+              <a class="fab fa-linkedin-in text-white " href="https://www.linkedin.com/in/kimberly-owens-8ba016156/"
+                target="_blank">
+              </a>
+            </div>
+            <div class="col-md-1 col-sm-1">
+              <a class="far fa-file-pdf  text-white " href="Assets/docs/resumeforbootcamp.pdf" target="_blank">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal" id="contact" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Send Me A Message</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <div class="form-group ">
+                  <input type="email" class="form-control border border-secondary" id="exampleInputEmail1"
+                    aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">This form is still in development. Feel free to email me at kimberly.j.owens@gmail.com</small>
+                </div>
+
+                <div class="form-group ">
+                  <label for="exampleTextarea blue-grey">Message</label>
+                  <div class="form-group border border-secondary">
+                    <textarea class="form-control " id="exampleTextarea" rows="5"></textarea>
+                  </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn bg-purple text-white">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- JS plugins -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

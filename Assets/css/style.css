@@ -1,44 +1,135 @@
 * {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
-.container p, .form-group, legend {
+
+
+/* ------ HEADER ------ */
+h1 {
+    font-family: 'Danicing Script', cursive;
+}
+
+.jumbotron {
+    background-image: url(../Images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 200px;
+    padding: 20px;
+}
+
+.head-content {
+    background-color:rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    color: #2F4459;
+    width: 100%;
+}
+
+/* ------ BODY ------ */
+
+body {
+    background-image: url(../Images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    
+}
+
+.content {
+    margin-bottom: 100px;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.466);
+}
+
+.container p,
+.form-group,
+legend {
     color: #333;
 }
-.project {
-    min-height: 300px;
+
+a:hover {
+    cursor: pointer;
 }
 
-.wepark {
-    min-height: 400px;
+.link {
+    font-size: 18px;
 }
+
+.thumbnail {
+    position: relative;
+}
+
+.box-search:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+    background-color: #B8B4BF;
+}
+
 #socialLinks {
     list-style-type: none;
 }
 
-
+/* ------ FOOTER ------ */
 footer {
     font-size: 14px;
     text-align: center;
+    background-image: url(../Images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 85% ;
 }
 
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
     #profilePicture {
         height: 200px;
     }
 
- }
+}
+
 
 /* /* /* Color Theme Swatches in Hex */
 
-.bg-navy { background-color: #192A42; }
-.bg-blue-grey { background-color: #2F4459; }
-.bg-yellow{ background-color: #E6B515; }
+
+.bg-yellow {
+    background-color: #D9A441;
+}
+
+.bg-gold {
+    background-color: #D9A441;
+}
+
+.bg-grey {
+    background-color: #B8B4BF;
+}
+
+.bg-purple {
+    background-color: #7B7DA6;
+}
+
+.purple {
+    color: #7B7DA6;
+}
 
 
-.yellow{ color:  #E6B515; }
-.navy { color: #192A42; }
-.blue-grey { color: #2F4459; }
-.grey { color: #737E8C; }
-.light-grey { color: #B8B4BF; }
+.yellow {
+    color: #E6B515;
+}
 
+.navy {
+    color: #192A42;
+}
+
+.blue-grey {
+    color: #2F4459;
+}
+
+.grey {
+    color: #737E8C;
+}
+
+.light-grey {
+    color: #B8B4BF;
+}
